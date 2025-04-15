@@ -1,0 +1,8 @@
+{
+    "api_key": "your_api_key_here",
+    "office_locations": {
+        "los_gatos": "121 Albright Wy, Los Gatos, CA 95032",
+        "new_york": "888 Broadway, New York, NY 10003",
+        "los_angeles": "5808 Sunset Blvd, Los Angeles, CA 90028"
+    }
+}
