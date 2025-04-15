@@ -10,9 +10,9 @@ For boba shop data, the Yelp Business Search API is used.
 
 1. Clone repo
 2. Install dependencies for node server: From the root of the app, run `npm install`
-3. Install dependencies for client: Navigate to the client folder and run `npm install`
+3. Install dependencies for client: Navigate to the `client` folder and run `npm install`
 4. In the config folder at the root of the project, duplicate the `default.json` file. You will want a file for each environment you intend to run the app in. For each duplicated file, rename accordingly. I suggest `development.json` and `production.json`.
-5. Edit these new files to include your own API token for the YELP Api (Include option for export?)
+5. Edit these new files to include your own API token for the YELP Api
 6. Run the node server from the root of the app: `npm run start-dev` or `npm run start-prod` (Each of these commands sets the NODE_ENV variable for ease)
 7. Navigate to the `client` folder and run the react app: `npm start`
 8. Open http://localhost:3000 in your browser
